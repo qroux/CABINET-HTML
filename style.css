@@ -1,1 +1,133 @@
-/* TODO: design your profile with CSS */
+/*$red: #FD1015;
+$dark-red: #931F1D;
+$blue: #167FFB;
+$yellow: #FFC65A;
+$orange: #E67E22;
+$green: #1EDD88;
+$gray: #0E0000;
+$light-gray: #F4F4F4;
+$light-white: #fcfdff;
+*/
+body {
+font-family: "Raleway", sans-serif;
+background-color: #F4F4F4;
+margin: 0;
+}
+a {
+color: #0E0000;
+opacity: 0.8;
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+transition-duration: 0.3s
+}
+/*début copié collé*/
+/*début banner*/
+.banner {
+color: white;
+text-align: center;
+height: 100vh;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.banner h1 {
+font-size: 40px;
+text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+font-weight: 500;
+padding: 30px;
+}
+.banner p {
+font-size: 25px;
+font-weight: lighter;
+color: rgb(255, 255, 255);
+opacity: 0.6;
+margin-bottom: 30px;
+}
+/*fin banner*/
+/*CONTENT*/
+.my-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 0 40px;
+margin-top: 20px;
+}
+@media(max-width: 768px) {
+  .my-container {
+    padding: 0;
+  }
+}
+.article {
+width: 345px;
+box-shadow: hsla(0, 0, 0, .2) 0 4px 2px -2px;
+border-radius: 3px;
+text-align: center;
+margin: 10px;
+}
+.article:hover{
+box-shadow: 0px 10px 30px #cecece;
+transition: box-shadow 0.25s;
+}
+.illustration {
+height: 200px;
+border-radius: 3px;
+background-size: cover;
+}
+.illustration h3 {
+color: white;
+padding-top: 90px;
+font-weight: 400;
+}
+.contenu {
+padding: 10px;
+background-color: #fcfdff;
+}
+/*fin CONTENT*/
+/*MAP*/
+.map {
+text-align: center;
+}
+.map h3 {
+padding-bottom: 10px;
+}
+/*contacts*/
+.foot-bundler {
+background-color: #F4F4F4;
+padding-top: 15px;
+display: flex;
+justify-content: center;
+}
+.contacts {
+text-align: center;
+border-radius: 5px;
+width: 100%;
+}
+.contact-container {
+display: flex;
+justify-content: center;
+margin: 30px 0;
+}
+.bundler {
+}
+/* .bundler a {
+color: #0E0000;
+opacity: 0.8;
+}*/
+.bundler a:hover {
+color: #FD1015;
+}
+/*footer*/
+.footer-container {
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.footer-container p {
+margin: 10px;
+}
+/*fin copié collé*/
+/*SHOW*/
+
