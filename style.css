@@ -104,9 +104,17 @@ margin-top: 20px;
   .my-container {
     padding: 0;
   }
-/*  .article {
-    background-color: red !important;
-  }*/
+  .map-bundler {
+    flex-direction: column;
+  }
+  .carte {
+    width: 375px;
+  }
+  .horaires {
+    margin: 0 !important;
+    padding: 0 0 0 15px !important;
+  }
+
 }
 .article {
 width: 600px;
@@ -147,9 +155,27 @@ padding-bottom: 20px;
 padding-bottom: 10px;
 font-size: 50px;
 }
+.map-bundler {
+  display: flex;
+  justify-content: center;
+}
+.carte {
+  width: 375px;
+}
+.horaires {
+  background-color: white;
+  margin-left: 15px;
+  padding: 15px;
+  width: 360px;
+}
+.horaires h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
 /*contacts*/
 .foot-bundler {
-padding: 15px 0;
+padding: 10px 0;
 display: flex;
 justify-content: center;
 }
@@ -176,18 +202,6 @@ font-size: 25px;
 color: #FD1015;
 }
 /*footer*/
-.footer-container {
-display: flex;
-justify-content: center;
-text-align: center;
-}
-.footer-container p {
-margin: 10px;
-}
-/*.mail p {
-  font-size: 25px;
-
-}*/
 /*fin copié collé*/
 /**/
 /**/
