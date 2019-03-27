@@ -143,6 +143,8 @@ background-color: #fcfdff;
 /*MAP*/
 #accès {
   background-color: #F4F4F4;
+  padding-top: 50px;
+  margin-top: 10px;
 }
 .map {
 text-align: center;
@@ -173,7 +175,7 @@ font-size: 50px;
 }
 /*contacts*/
 .foot-bundler {
-padding: 10px 0;
+padding-top: 10px;
 display: flex;
 justify-content: center;
 }
@@ -181,6 +183,7 @@ justify-content: center;
 text-align: center;
 width: 100%;
 background-color: #B3BDC3;
+padding: 50px 0;
 }
 .contacts h3 {
   color: white;
