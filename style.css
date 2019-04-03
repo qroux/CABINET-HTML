@@ -232,6 +232,24 @@ opacity: 1;
 margin-bottom: 30px;
 }
 
+.show-card {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  border: 1px solid grey;
+  flex-wrap: wrap;
+}
+
+.show-illustration {
+  height: 667px;
+  width: 375px;
+  background-color: grey;
+}
+.show-text {
+  background-color: red;
+  width: 800px;
+}
+
 /**/
 .articles {
   display: flex;
